@@ -5,7 +5,7 @@ public class Bear extends Animal {
     }
 
     public void sleep(){
-        System.out.println(this.name + "hibernates for 4 months");
+        System.out.println(this.name + " hibernates for 4 months");
     }
 
 }

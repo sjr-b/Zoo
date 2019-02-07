@@ -5,8 +5,8 @@ public class Giraffe extends Animal {
     }
 
     public void  eat(String food){
-        System.out.println(this.name + " eats " + food);
         if (food == favoriteFood){
+            System.out.println(this.name + " eats leaves");
             System.out.println("YUM!!! " + this.name + " wants more leaves");
             sleep();
         } else {
